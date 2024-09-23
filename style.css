@@ -1,7 +1,47 @@
-h1 {
-    color:red
+body {
+    color: #333333;
+    background-color: #D9DCD6;
+    font-family: "Cardo",serif;
+    font-weight: 400;
+    margin: 50 50 50 50;
 }
 
-h2 {
-    color:green;
+
+h1, h2, h3, h4 {
+    color: #003366;
+    font-family: "cardo", serif;
+}
+
+a {
+    color:#1E90FF;
+}
+.foto {
+    width:200px;
+    border-radius: 50%;
+    float: right;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    overflow:auto;
+    border: 2px solid brown
+}
+section {
+    background-color:#FFFFFF;
+    border: 2px solid #1E90FF;
+    padding: 20px;
+    margin-bottom:20px;
+}
+.paticka {
+    color: white;
+    background-color: grey;
+    text-align: center;
+    padding: 20px 0;
+}
+table {
+    border-spacing: 0px;
+}
+th,
+td {
+    text-align: left;
+    border-bottom: solid grey;
+    padding: 10px 0;
 }
