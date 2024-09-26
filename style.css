@@ -4,8 +4,8 @@ body {
     font-family: "garamond",serif;
     font-weight: 400;
     margin: 50 50 50 50;
+    display: block;
 }
-
 
 h1, h2, h3, h4 {
     color: #6B4B3E;
@@ -15,42 +15,83 @@ h1, h2, h3, h4 {
 
 h1 {
     text-align: center;
-    color:#6B4B3E
+    color:#6B4B3E;
     margin-top: 10px;
 }
+
 a {
     color: #6B4B3E;
 }
+
 .foto {
-    width:200px;
-    border-radius: 50%;
+    width:150px;
     float: right;
-    margin-left: 30px;
-    margin-bottom: 150px;
-    overflow: auto;
-    border: 2px solid #6B4B3E
+    border-radius: 50%;
+    margin: 30px;
+    border: 2px solid #6B4B3E;
 }
+
 section {
+    display: block;
     background-color: #F8F4F9;
     border: 2px solid #6B4B3E;
-    padding: 50px;
-    margin-bottom:20px;
+    padding-top: 10px;
+    padding-left: 50px;
+    margin-bottom:50px;
     margin-left: 100px;
     margin-right: 100px;
     border-radius: 30px;
 }
+
 .paticka {
     color: white;
     background-color: grey;
     text-align: center;
     padding: 20px 0;
 }
+
 table {
     border-spacing: 0px;
+    margin: 30px;
 }
+
 th,
 td {
     text-align: left;
     border-bottom: solid grey;
     padding: 10px;
+}
+
+.hlavicka {
+    text-align: center;
+    color: #6B4B3E;
+}
+
+.menu{
+    text-align: center;
+}
+
+.menu li{
+    display: inline-block;
+    margin: 0;
+    padding:0;
+    text-align: center;
+    background-color:#F8F4F9;
+
+    border-radius: 30px;
+    
+}
+
+.menu li:hover {
+    background-color: #f0ebf1;
+}
+
+.menu a {
+    display: inline-block;
+    color: #6B4B3E;
+    text-decoration: none;
+    padding: 30px 40px;
+    border: 2px solid #6B4B3E;
+    border-radius: 30px;
+
 }
